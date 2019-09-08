@@ -3,7 +3,9 @@ This sample Django application is to show the bug for AWS support
 If you try to deploy this application through elastic beanstalk to any of the platfroms you will get the error which is described below
 
 -Python 3.6 running on 64bit Amazon Linux/2.9.2
+
 -Python 3.6 running on 64bit Amazon Linux/2.9.1
+
 -Python 3.6 running on 64bit Amazon Linux/2.8.3
 
 Error description:

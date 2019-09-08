@@ -13,8 +13,10 @@ Command failed on instance. Return code: 1 Output: (TRUNCATED)...gs]', add_help=
 
 Basically, the problem is with the argparse in venv and not with Django itself.
 If argparse is used in venv it complains on 'allow_abbrev' argument.
+
 Example:
 
-import argparse                                                                                                           >>> parser = argparse.ArgumentParser(prog='PROG', allow_abbrev=False)                                                         Traceback (most recent call last):                                                                                             File "<stdin>", line 1, in <module>                                                                                           TypeError: __init__() got an unexpected keyword argument 'allow_abbrev' 
+import argparse
+parser = argparse.ArgumentParser(prog='PROG', allow_abbrev=False)                                                         Traceback (most recent call last):                                                                                             File "<stdin>", line 1, in <module>                                                                                           TypeError: __init__() got an unexpected keyword argument 'allow_abbrev' 
 
 This error does not happen when using argparse outside of venv

@@ -46,7 +46,7 @@ future==0.16.0
 google-measurement-protocol==1.0.0
 holidays==0.9.11
 html5lib==1.0.1
-httplib2==0.13.1
+httplib2==0.18.0
 humanize==0.5.1
 idna==2.7
 ipython==7.7.0

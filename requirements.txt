@@ -82,7 +82,7 @@ pyparsing==2.4.2
 python-dateutil==2.8.0
 python-http-client==3.1.0
 pytz==2019.2
-PyYAML==3.13
+PyYAML==5.4
 redis==3.3.6
 requests==2.20.1
 requests-oauthlib==1.2.0

@@ -27,7 +27,7 @@ coverage==4.5.4
 cssutils==1.0.2
 decorator==4.4.0
 distlib==0.2.9.post0
-Django==2.2.1
+Django==2.2.22
 django-contrib-comments==1.9.1
 django-filter==2.2.0
 django-htmlmin==0.11.0
